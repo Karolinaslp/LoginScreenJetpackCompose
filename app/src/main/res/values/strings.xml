@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LoginScreenCompose</string>
+    <string name="app_logo">App Logo</string>
+    <string name="the_tolet">The Tolet\n</string>
+    <string name="find_house">Find Your House</string>
+</resources>
