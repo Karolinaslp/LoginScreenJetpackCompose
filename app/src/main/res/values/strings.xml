@@ -3,4 +3,10 @@
     <string name="app_logo">App Logo</string>
     <string name="the_tolet">The Tolet\n</string>
     <string name="find_house">Find Your House</string>
+    <string name="login">Login\n</string>
+    <string name="the_tolet1">The Tolet</string>
+    <string name="find_house1">Find Your House</string>
+    <string name="ttolet">The Tolet</string>
+    <string name="tolet">The Tolet</string>
+    <string name="house">Find Your House</string>
 </resources>
