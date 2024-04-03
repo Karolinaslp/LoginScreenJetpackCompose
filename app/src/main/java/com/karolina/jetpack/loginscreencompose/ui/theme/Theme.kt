@@ -4,6 +4,7 @@ import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
@@ -63,8 +64,8 @@ fun LoginScreenComposeTheme(
     // Information about screen
     val config = LocalConfiguration.current
 
-    var typography = CompactTypography
-    var appDimens = CompactDimens
+    var typography: Typography
+    var appDimens: Dimens
     when (windowSize.widthSizeClass) {
         WindowWidthSizeClass.Compact -> {
             if (config.screenWidthDp <= 360) {

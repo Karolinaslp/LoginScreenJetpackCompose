@@ -23,7 +23,6 @@ import androidx.compose.ui.composed
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.semantics.Role.Companion.Image
 import androidx.compose.ui.unit.dp
 import com.karolina.jetpack.loginscreencompose.ui.theme.BlueGray
 import com.karolina.jetpack.loginscreencompose.ui.theme.LightBlueWhite

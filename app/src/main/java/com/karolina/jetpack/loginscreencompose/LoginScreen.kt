@@ -127,7 +127,7 @@ private fun ColumnScope.CreateAccountSection() {
 
 @Composable
 private fun SocialMediaSection() {
-    Column(modifier = Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
+    Column(modifier = Modifier.fillMaxWidth(), horizontalAlignment = CenterHorizontally) {
         Text(
             text = "Or continue with",
             style = MaterialTheme.typography.labelMedium.copy(color = Color(0xFF64748B)),
