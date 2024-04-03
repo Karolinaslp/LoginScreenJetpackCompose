@@ -27,6 +27,7 @@ import androidx.compose.ui.semantics.Role.Companion.Image
 import androidx.compose.ui.unit.dp
 import com.karolina.jetpack.loginscreencompose.ui.theme.BlueGray
 import com.karolina.jetpack.loginscreencompose.ui.theme.LightBlueWhite
+import com.karolina.jetpack.loginscreencompose.ui.theme.dimens
 
 @Composable
 fun SocialMediaLogIn(
@@ -39,8 +40,8 @@ fun SocialMediaLogIn(
         modifier = modifier
             .clip(RoundedCornerShape(4.dp))
             .socialMedia()
-            .clickable { onClick }
-            .height(40.dp),
+            .clickable { onClick() }
+            .height(MaterialTheme.dimens.buttonHeight),
         horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ) {
